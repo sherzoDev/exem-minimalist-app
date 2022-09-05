@@ -1,0 +1,36 @@
+/* Touch Start */
+
+.touch {
+    padding-bottom: 32px;
+}
+
+.touch__wrapper {
+    border-top: 1px solid #E3E3E5;
+    border-bottom: 1px solid #E3E3E5;
+}
+
+.touch__title {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+
+.touch__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;    
+    color: var(--main-dark-blue-color);
+    opacity: 0.8;
+}
+
+.touch__logos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.touch__logo:not(:first-child) {
+    margin-left: 15px;
+}

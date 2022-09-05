@@ -9,11 +9,6 @@
   box-sizing: inherit;
 }
 
-::selection {
-  background-color: darkcyan;
-  color: gold;
-}
-
 html {
   height: 100%;
   box-sizing: border-box;
@@ -26,10 +21,8 @@ img {
 
 body {
   @include sticky-footer;
-  /* font-family: "Roboto", "Arial", sans-serif; */
-  /* font-size: 16px; */
-  /* font-weight: 400; */
-  /* line-height: var(--main-line-height); */
+  font-family: "Ibarra Real Nova", serif;
+  font-family: "Public Sans", "Arial", sans-serif;
 }
 
 /* STICKY-FOOTER */
