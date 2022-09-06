@@ -34,3 +34,17 @@
 .touch__logo:not(:first-child) {
     margin-left: 15px;
 }
+
+@include mobile-first(1000px) {
+
+    .touch__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .touch__main {
+        max-width: 600px;
+        width: 100%;
+    }
+
+}
