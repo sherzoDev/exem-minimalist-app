@@ -870,6 +870,94 @@ body {
     height: 1px;
   }
 }
+.about {
+  padding-bottom: 96px;
+}
+
+.about__title-box {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-left: 50px;
+  padding-bottom: 46px;
+  padding-top: 46px;
+}
+
+.about__title {
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: var(--main-grayish-dark-blue);
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--main-grayish-dark-blue);
+  opacity: 0.8;
+  padding-bottom: 24px;
+}
+
+.about__btn {
+  border: 1px solid var(--main-grayish-dark-blue);
+  text-decoration: none;
+  color: var(--main-grayish-dark-blue);
+  padding-right: 35px;
+  padding-left: 32px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.about__btn:hover {
+  background-color: var(--main-grayish-dark-blue);
+  color: var(--main-white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .about__picture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about__title-box {
+    margin-top: 32px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+  .about__img {
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .about__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about__title-box {
+    max-width: 400px;
+    margin-left: 69px;
+  }
+}
 /* Touch Start */
 .touch {
   padding-bottom: 32px;
