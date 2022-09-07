@@ -469,11 +469,13 @@ body {
 }
 
 .siteheader__btn {
+  display: inline-block;
   background-image: url("../images/btn-open.svg");
   width: 24px;
   height: 13px;
   border: none;
   background-color: transparent;
+  display: inline-block;
 }
 
 .sitenav {
@@ -520,9 +522,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: inline-block;
 }
 
-.site-nav-on .show {
+.site-nav-on {
   overflow: hidden;
 }
 
@@ -672,7 +675,6 @@ body {
   line-height: 14px;
   text-align: center;
   letter-spacing: 2px;
-  text-transform: uppercase;
   background-color: var(--main-dark-blue-color);
   text-decoration: none;
   color: var(--main-white-color);
@@ -807,6 +809,7 @@ body {
 }
 
 .article__btn {
+  display: inline-block;
   padding-top: 17px;
   text-align: center;
   border: 1px solid #33323D;
@@ -884,7 +887,7 @@ body {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   margin-left: 50px;
-  padding-bottom: 46px;
+  padding-bottom: 100px;
   padding-top: 46px;
 }
 
@@ -1134,6 +1137,7 @@ body {
 }
 
 .form__btn {
+  display: inline-block;
   margin-top: 24px;
   max-width: 200px;
   width: 100%;
