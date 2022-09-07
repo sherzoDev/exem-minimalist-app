@@ -449,6 +449,7 @@ body {
 
 /* Site Header Start */
 .siteheader {
+  z-index: 100;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -518,6 +519,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.site-nav-on .show {
+  overflow: hidden;
 }
 
 .site-nav-on html {
