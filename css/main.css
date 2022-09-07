@@ -667,16 +667,15 @@ body {
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #ffffff;
   background-color: var(--main-dark-blue-color);
   text-decoration: none;
-  color: var(--main-grayish-blue-color);
+  color: var(--main-white-color);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 .hero__btn:hover {
-  background-color: #5fb4a2;
+  background-color: var(--main-cyan-color);
 }
 .hero__btn::before {
   content: "";
